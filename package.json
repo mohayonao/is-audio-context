@@ -1,0 +1,24 @@
+{
+  "name": "is-audio-context",
+  "description": "isAudioContext",
+  "version": "1.0.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/is-audio-context/issues"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/mohayonao/is-audio-context/",
+  "keywords": [
+    "webaudio"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/is-audio-context.git"
+  }
+}
