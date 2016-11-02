@@ -4,7 +4,7 @@ var AudioContext = global.AudioContext || global.webkitAudioContext;
 var OfflineAudioContext = global.OfflineAudioContext || global.webkitOfflineAudioContext;
 
 function isAudioContext(context) {
-  return context instanceof AudioContext || context instanceof OfflineAudioContext;
+  return (!!AudioContext && context instanceof AudioContext) || (!!OfflineAudioContext && context instanceof OfflineAudioContext);
 }
 
 module.exports = isAudioContext;
