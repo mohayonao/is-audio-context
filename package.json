@@ -1,7 +1,7 @@
 {
   "name": "is-audio-context",
-  "description": "isAudioContext",
-  "version": "1.0.0",
+  "description": "Check is a value is an AudioContext or OfflineAudioContext",
+  "version": "1.0.1",
   "author": "Nao Yonamine <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/is-audio-context/issues"
